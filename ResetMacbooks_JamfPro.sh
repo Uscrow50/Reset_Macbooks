@@ -73,7 +73,7 @@ response=$( /usr/bin/curl --silent \
     --request POST \
     --url "$jamfProURL/api/v1/computer-inventory/$computerID/erase" \
     --data '{
-        "pin": "818123"
+        "pin": "00000"
     }')
 
 echo "Response: $response"
